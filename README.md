@@ -11,10 +11,10 @@ In this task, a data-set is used that comprise of different jobs posted on a job
 - Model Evaluation 
 
 When text data is pre-processed, the issue of curse of dimensionality usually appears i.e. data becomes highly multi-dimensional with lots of features ranging in thousands. Not all of those features are helpful and also it adversely affects the peformance of classifiers as well so following the best practices, I opted for best-in-class feature extraction methods and also applied feature selection techniques so as to compile only those features that will contribute in this prediction problem. For model development, I used and compared the following set of machine learning algorithms:
-- Bernoulli Naive Bayes
-- Multinomial Naive Bayes
-- Random Forests 
-- Linear SVM 
+1) Bernoulli Naive Bayes
+2) Multinomial Naive Bayes
+3) Random Forests 
+4) Linear SVM 
 
 and compared these algorithms on different metrics like accuracy, training and testing time. As per my analysis, SVM outshines all of the other models when it comes to accuracy. Random Forests accuracy score was also quite good but took considerable time during training phase. For implementation, I used Python. Specifically, I used the following libraries/modules of Python for different set of tasks: pandas, numpy sklearn nltk matplotlib  
 To run the code, please make sure that the latest version of Python, Jupyter and aforementioned libraries are installed in your system.
